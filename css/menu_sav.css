@@ -1,0 +1,55 @@
+
+/* Menu fixe du haut */
+#nav {
+position: fixed;
+top: 0; //left:0; right: 0;
+width:100%;
+padding: 0.3% 0;
+margin:0;
+background: #000;
+//text-align:center;
+font-size: 1em;
+z-index:10;
+}
+
+#nav li {
+display: inline;
+//margin: 0 -4% 0 -4%;
+padding: 0 3% 0 0;
+margin: auto;
+}
+
+#m1 {
+display: inline-block;
+z-index:10;
+text-align:right;
+width:44%;
+float:left;
+margin: 0 0 0 6%;
+//padding: 0 5% 0 5%;
+}
+
+#m2 {
+display: inline-block;
+z-index:-1;
+width:44%;
+float:right;
+margin: 0 6% 0 0;
+//padding: 0 5% 0 0;
+}
+
+#nav a {
+display: inline-block;
+//margin: 0 1em;
+padding: 10px 10px 10px 10px;
+color: #eee;
+text-transform: uppercase;
+text-decoration: none;
+text-shadow: 0 0 5px #fff;
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-ms-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+

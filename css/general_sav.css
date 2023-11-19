@@ -1,0 +1,155 @@
+
+/* General */
+body {
+margin: 0;
+padding: 0;
+color:#fff;
+background:url(images/Body_Background.jpg) center 0 no-repeat fixed; 
+font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+overflow: hidden;
+}
+
+h2 {
+font-size: 1.7vw;
+color: #eca603;
+font-family: 'Times New Roman', Times, serif;
+font-weight:bolder ;
+text-shadow: 0px -1px 0 rgba(255, 255, 0, 0.9);
+text-transform: uppercase;
+}
+
+a {
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+font-weight:bold;
+color:#fff;
+}
+
+b {
+font-family: 'Times New Roman', Times, serif;
+font-weight:bolder ;
+color: blue;
+text-shadow: 0 -1px 0 rgba(255, 255, 0, 0.9);
+}
+
+   /* style numero de telephone */
+
+.tel, .mail{
+text-decoration: none;
+	text-shadow: 0 0 5px #fff;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+
+   /* pour écarter les paragraphes du bord gauche */
+
+.Pgh{
+padding: 0 0 0 1.5em ;
+font-size: 0.9em;
+}
+
+#supuce{
+list-style-type: none;
+color: #eee;
+font-size: 0.9em;
+font-weight: 900px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 0 6px yellow,0 0 6px yellow;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#supuce:hover {
+color: #eee;
+	text-shadow: 0 0 6px #fff,0 0 6px #fff,0 0 6px #fff;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.puce_sav{
+width: 1.5%;
+height:auto;
+flotte: right;
+margin: 0 8 1 0; 
+}
+
+
+#bouton{
+position: fixed;
+top: 0; left:0; right: 75%;
+padding: 0.5em 0;
+margin:0;
+background: #00000000;
+text-align:center;
+font-size: 1em;
+z-index:11;
+}
+
+#bouton img{
+width:10%;
+padding: 0.3em 0 1em 0 ;
+}
+
+
+#telephone{
+position: fixed;
+top: 11%; 
+left:82%; 
+margin:0;
+background: #00000000;
+font-size: 1em;
+z-index:12;
+}
+
+#telephone img{
+flotte: right;
+//width:6%;
+
+padding: 0 0 1em ;
+}
+
+#telephone a{
+list-style-type: none;
+font-size: 1.4em;
+}
+
+
+
+.imgtel{
+width:6%;
+
+margin: 0 0 0 7px;
+}
+
+
+
+.imgmail{
+width:10%;
+
+margin: 15px 0 ;
+
+}
+
+
+
+
+
+.txttel{
+margin: -46px 0 0 30px;
+}
+
+.txtmail{
+margin: -50px 0 0 30px;
+}
